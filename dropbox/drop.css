@@ -1,0 +1,178 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+.Navigation {
+    margin-left: 100px;
+}
+
+.nav1 {
+    background-color: #61082B;
+    height: 100vh;
+    width: 130vh;
+}
+
+.whole {
+    margin: 40% 20px;
+}
+
+a.navigationFTeams {
+    text-decoration: none;
+    color: white;
+    margin: 9px 0px 0px 10px;
+}
+
+a.navigationFIndividuals {
+    text-decoration: none;
+    color: white;
+    margin: 9px 0px 0px 10px;
+}
+
+.high {
+    margin: 20vh;
+}
+
+.inner {
+    margin: 15px auto;
+}
+
+h1 {
+    color: #B4D0E7;
+    font-size: 64px;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+.head1 {
+    margin: 0px 90px;
+}
+
+.head2 {
+    margin: 0px 40% 0px 10%;
+}
+
+button {
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    border: 1px rgb(96, 96, 167) solid;
+}
+
+section.Navigation.links {
+    display: flex;
+}
+
+img.DropboxLogo {
+    /* margin: 0px; */
+    margin: 0px 10px;
+}
+
+nav.RebrandNavigation-container-content {
+    display: inline-flex;
+}
+
+.sign-in-up--subcontainer {
+    display: flex;
+}
+
+.part2 {
+    margin: 10px 20px;
+}
+
+.Navigation.SigUp {
+    margin: 0px 50px;
+    padding: 10px;
+}
+
+.NavigationSignIn {
+    padding: 10px;
+}
+
+h3 {
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h6 {
+    color: black;
+    font-size: 22px;
+    font-style: none;
+    padding: 10px;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.signin-form.form--hidden {
+    margin: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+form.login-form {
+    margin: 20px 0px;
+}
+
+.text-input.small.login-text-input.login-email {
+    margin: 0px 0px;
+}
+
+input#login_ema {
+    margin: 5px 15px 10px 5px;
+}
+
+input#login_password24879718078754687 {
+    margin: 5px 15px 10px 5px;
+}
+
+.text-input.medium.login-text-input.login-password {
+    margin: 0px 5px;
+}
+
+.bars {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        color: black;
+        font-size: 32x;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0px 80% 0px 0;
+    }
+    .bars {
+        left: 170%;
+        position: absolute;
+        color: white;
+        top: 10%;
+        display: inline-block;
+    }
+    .part2 {
+        display: none;
+    }
+}
+
+.button {
+    border: none;
+}
+
+button.button-primary {
+    border-radius: 5px;
+}
